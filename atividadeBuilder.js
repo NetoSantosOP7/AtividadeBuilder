@@ -90,7 +90,7 @@ const PDFbuilder = new BuildarPDF()
 const genericoPDF = new builderGenerico(PDFbuilder)
 const relatorioPDF = genericoPDF.construir("relatorio", "<dados>Exemplo</dados>")
 
-const crystalBuilder = new BuildarCrystalReport(".algumtipoai")
+const crystalBuilder = new BuildarCrystalReport(".rpt")
 const genericoCrystal = new builderGenerico(crystalBuilder)
 const relatorioCrystal = genericoCrystal.construir("relatorio", "<dados>Exemplo</dados>")
 
